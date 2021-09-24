@@ -1,0 +1,56 @@
+
+.controlSize {
+    width: 100%;
+    max-height: 550px;
+}
+
+.carousel-caption {
+    background-color: #2972dfde;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#contenedorTicket {
+    tbody {
+        tr {
+            td {
+                max-width: 80vw;
+                overflow: auto;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+    thead {
+        background-color: #020330;
+        color: white;
+        height: 5vh;
+    }
+    display: flex;
+    margin-top: 20px;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.76);
+    border: turquoise solid;
+}
+
+#divTeam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh;
+}
+
+#imagenTeam {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 10em;
+    margin: 3vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+

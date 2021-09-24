@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url(_carouselServicios.scss);
+@import "carousel";
+@import "contactoFooter";
+@import "mainBox";
+@import "meanMenuMob";
+@import "cardsNosotros";
+
+body {
+    background: linear-gradient(to bottom, rgba(31, 23, 150, 1) 20%, rgba(14, 148, 156, 1) 100%);
+    font-size: 14px;
+    font-family: "poppins", sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+@mixin title-posicion {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        @include title-posicion;
+    }
+}
