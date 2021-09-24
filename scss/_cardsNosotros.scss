@@ -1,0 +1,80 @@
+/* ------------------------- cards style "Nosotros" ------------------------- */
+
+.contenedorCartas {
+    display: flex;
+    margin-top: 5vh;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+.profile-card-4 {
+    .profile-content .profile-overview {
+        h4 {
+            color: #273751;
+            font-weight: bold;
+        }
+        p {
+            font-size: 10px;
+            font-weight: 600;
+            color: #777;
+        }
+        padding: 15px 0px;
+    }
+    .profile-description {
+        p {
+            color: rgb(50, 205, 184);
+        }
+        color: #777;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .profile-name {
+        h2 {
+            color: black;
+            font-size: 30px;
+        }
+        p {
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 1.5px;
+        }
+        font-weight: bold;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: -70px;
+        color: #fff;
+        font-size: 17px;
+    }
+    .profile-content {
+        position: relative;
+        padding: 15px;
+        background-color: rgb(19, 21, 141);
+    }
+    img {
+        transition: all 0.25s linear;
+    }
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
