@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
     .main-menu ul > li a {
         padding: 20px 20px 20px;
     }
@@ -10,6 +11,7 @@
 }
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    
     .logo {
         text-align: center;
     }
@@ -55,10 +57,22 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    
     .carousel-caption {
         background-color: rgba(0, 0, 255, 0.356);
         color: white;
         text-align: center;
+    }
+
+       
+    .contenedorCartas {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        overflow: auto;
+        ;
+        
+        
     }
 
     .controlSize {
@@ -94,8 +108,10 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
+    
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+    
     .main-menu ul > li a {
         padding: 7px 20px 7px 20px;
         margin: 0px 0px;
@@ -131,6 +147,7 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    
     .main-menu ul {
         margin-top: 8px;
     }
@@ -179,6 +196,7 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    
     .menu-area-main li.active a {
         background: transparent;
         box-shadow: inherit;
@@ -230,6 +248,7 @@
     }
 }
 @media (max-width: 575px) {
+    
     .header {
         padding-bottom: 0px;
     }

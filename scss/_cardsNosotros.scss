@@ -1,13 +1,15 @@
 /* ------------------------- cards style "Nosotros" ------------------------- */
 
-.contenedorCartas {
+. {
     display: flex;
     margin-top: 5vh;
+    
+    
 }
 
 .profile-card-4 .profile-content::before {
-    content: "";
-    position: absolute;
+   
+    
     height: 20px;
     top: -10px;
     left: 0px;
