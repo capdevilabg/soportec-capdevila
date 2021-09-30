@@ -1,294 +1,308 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
- @media only screen and (min-width: 768px) and (max-width: 991px) {
-     .main-menu ul>li a {
-         padding: 20px 20px 20px;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul > li a {
+        padding: 20px 20px 20px;
     }
-     .header-search {
-         padding: 15px 0px;
+    .header-search {
+        padding: 15px 0px;
     }
 }
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
- @media only screen and (min-width: 599px) and (max-width: 767px) {
-     .logo {
-         text-align: center;
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
     }
-     .cart-content-right {
-         padding-bottom: 5px;
+    .cart-content-right {
+        padding-bottom: 5px;
     }
-     .mg {
-         margin: 0px 0px;
+    .mg {
+        margin: 0px 0px;
     }
-     .menu-area-main {
-         height: 256px;
-         overflow-y: auto;
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
     }
-     .mean-container .mean-nav ul li a.mean-expand {
-         height: 19px;
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
     }
-  
-     .cart-box {
-         display: inline-block;
-         margin: 0px 30px;
+
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
     }
- 
-     .mean-container .mean-nav ul li ol {
-         padding: 0px;
+
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
     }
-     .mean-container .mean-nav ul li a {
-         padding: 10px 20px;
-         width: 94.8%;
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
     }
-     .mean-container .mean-nav ul li li a {
-         width: 92%;
-         padding: 1em 4%;
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
     }
-     .mean-container .mean-nav ul li li li a {
-         width: 100%;
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
     }
-     .header-search {
-         padding: 15px 0px;
+    .header-search {
+        padding: 15px 0px;
     }
-     #collapseFilter.d-md-block {
-         padding: 30px 0px;
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
     }
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
- @media only screen and (min-width: 280px) and (max-width: 599px) {
-   
-     .mean-container .mean-nav ul li a {
-         padding: 1em 4%;
-         width: 92%;
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .carousel-caption {
+        background-color: rgba(0, 0, 255, 0.356);
+        color: white;
+        text-align: center;
     }
-     .mean-container .mean-nav ul li li a {
-         width: 90%;
-         padding: 1em 5%;
+
+    .controlSize {
+        
+        width: 100%;
+        min-height: 15em;
+        max-height: 55000px;
     }
-   
-     .menu-area-main {
-         height: 290px;
-         overflow-y: auto;
+    
+
+
+  
+
+    #contenedorTicket {
+        display: none;
     }
-     .mean-container .mean-nav ul li a.mean-expand {
-         top: 0;
+
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+
+    .menu-area-main {
+        height: 290px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
     }
 }
- @media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 }
- @media (min-width: 992px) and (max-width: 1199px) {
-     .main-menu ul > li a {
-         padding: 7px 20px 7px 20px;
-         margin: 0px 0px;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-menu ul > li a {
+        padding: 7px 20px 7px 20px;
+        margin: 0px 0px;
     }
-     .banner-main .text-bg h1 {
+    .banner-main .text-bg h1 {
         font-size: 45px;
-         line-height: 55px;
+        line-height: 55px;
     }
- 
-     .banner-main .text-bg p {
+
+    .banner-main .text-bg p {
         padding: 0px 0px 17px 0px;
     }
-     .music-box .for-box h3{
+    .music-box .for-box h3 {
         font-size: 18px;
     }
-     .text-box .box {
-         padding: 20px 15px;
-         margin-left: inherit;
+    .text-box .box {
+        padding: 20px 15px;
+        margin-left: inherit;
     }
-     .text-box .box i img {
-         margin-left: inherit;
+    .text-box .box i img {
+        margin-left: inherit;
     }
-     .text-box .box h3 {
-         font-size: 31px;
-         line-height: 35px;
-         padding: 12px 0px;
+    .text-box .box h3 {
+        font-size: 31px;
+        line-height: 35px;
+        padding: 12px 0px;
     }
-     .padding {
-         padding: 0 15px;
+    .padding {
+        padding: 0 15px;
     }
-     ul.locarion_icon li {
+    ul.locarion_icon li {
         font-size: 13px;
     }
 }
- @media (min-width: 768px) and (max-width: 991px) {
-     .main-menu ul {
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul {
         margin-top: 8px;
     }
-     .main-menu ul>li a {
-         padding: 5px 15px 5px 15px;
-         margin: 0px 0px;
-    }
-    
-     .banner-main .text-bg h1 {
-        font-size: 28px;
-         line-height: 41px;
-    }
-  
-     .banner-main .text-bg p {
-        font-size: 15px;
-         padding: 0px 0px 12px 0px;
-         line-height: 20px;
-    }
-     .banner-main .text-bg a {
-        width: 163px;
-         padding: 3px 0;
-         font-size: 16px;
-    }
-    
-     .padding {
-         padding: 0 15px;
-    }
- 
-     .text-box .box {
-         padding: 20px 15px;
-         margin-left: inherit;
-    }
-     .text-box .box i img {
-         margin-left: inherit;
-    }
-     .text-box .box h3 {
-         font-size: 31px;
-         line-height: 35px;
-         padding: 12px 0px;
-    }
-     .address {
-         margin-bottom: 30px;
-    }
-     .copyright {
-         margin-top: 60px;
-    }
-}
- @media (min-width: 576px) and (max-width: 767px) {
-     .menu-area-main li.active a {
-         background: transparent;
-         box-shadow: inherit;
+    .main-menu ul > li a {
+        padding: 5px 15px 5px 15px;
+        margin: 0px 0px;
     }
 
-     .mean-container .mean-bar {
+    .banner-main .text-bg h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .banner-main .text-bg p {
+        font-size: 15px;
+        padding: 0px 0px 12px 0px;
+        line-height: 20px;
+    }
+    .banner-main .text-bg a {
+        width: 163px;
+        padding: 3px 0;
+        font-size: 16px;
+    }
+
+    .padding {
+        padding: 0 15px;
+    }
+
+    .text-box .box {
+        padding: 20px 15px;
+        margin-left: inherit;
+    }
+    .text-box .box i img {
+        margin-left: inherit;
+    }
+    .text-box .box h3 {
+        font-size: 31px;
+        line-height: 35px;
+        padding: 12px 0px;
+    }
+    .address {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        margin-top: 60px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .menu-area-main li.active a {
+        background: transparent;
+        box-shadow: inherit;
+    }
+
+    .mean-container .mean-bar {
         margin-top: 1px;
     }
-     .banner-main .text-bg h1 {
+    .banner-main .text-bg h1 {
         font-size: 28px;
-         line-height: 41px;
+        line-height: 41px;
     }
-    
-     .banner-main .text-bg p {
+
+    .banner-main .text-bg p {
         display: none;
     }
-     .banner-main .text-bg a {
+    .banner-main .text-bg a {
         width: 163px;
-         padding: 3px 0;
-         font-size: 16px;
+        padding: 3px 0;
+        font-size: 16px;
     }
-  
-     .padding {
-         padding: 0 15px;
+
+    .padding {
+        padding: 0 15px;
     }
-     .text-box .box {
-         padding: 20px 15px;
-         margin-left: inherit;
+    .text-box .box {
+        padding: 20px 15px;
+        margin-left: inherit;
     }
-     .text-box .box i img {
-         margin-left: inherit;
+    .text-box .box i img {
+        margin-left: inherit;
     }
-     .text-box .box h3 {
-         font-size: 31px;
-         line-height: 35p padding 12px 0px 
+    .text-box .box h3 {
+        font-size: 31px;
+        line-height: 35p padding 12px 0px;
     }
-  
-     .margin {
-         margin-bottom: 30px;
+
+    .margin {
+        margin-bottom: 30px;
     }
-     .address {
-         margin-bottom: 30px;
+    .address {
+        margin-bottom: 30px;
     }
-     .copyright {
-         margin-top: 60px;
+    .copyright {
+        margin-top: 60px;
     }
     .contant_icon {
-
-    margin-bottom: 30px !important;
-
-}
-}
- @media (max-width: 575px) {
-     .header {
-         padding-bottom: 0px;
+        margin-bottom: 30px !important;
     }
-     .mean-container .mean-bar {
+}
+@media (max-width: 575px) {
+    .header {
+        padding-bottom: 0px;
+    }
+    .mean-container .mean-bar {
         margin-bottom: -1px;
     }
-     .menu-area-main li.active a {
-         background: transparent;
-         box-shadow: inherit;
+    .menu-area-main li.active a {
+        background: transparent;
+        box-shadow: inherit;
     }
     .contant_icon {
-
-    margin-bottom: 30px !important;
-
-}
-     .search{
-         display: none;
+        margin-bottom: 30px !important;
     }
-     .logo {
-         float: inherit;
-         text-align: center;
-    }
-     .banner-main .text-bg h1 {
-        font-size: 24px;
-         line-height: 38px;
-    }
-   
-     .banner-main .text-bg p {
+    .search {
         display: none;
     }
-     .banner-main .text-bg a {
-        width: 163px;
-         padding: 3px 0;
-         font-size: 16px;
+    .logo {
+        float: inherit;
+        text-align: center;
     }
-     .banner-main img {
+    .banner-main .text-bg h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .banner-main .text-bg p {
+        display: none;
+    }
+    .banner-main .text-bg a {
+        width: 163px;
+        padding: 3px 0;
+        font-size: 16px;
+    }
+    .banner-main img {
         height: 258px;
     }
-     
-     .submit-btn {
+
+    .submit-btn {
         width: 176px;
-         margin: 0 auto;
-         margin-top: 0px;
-         display: block;
-         margin-top: 20px
+        margin: 0 auto;
+        margin-top: 0px;
+        display: block;
+        margin-top: 20px;
     }
-     .padding-right {
-         padding-right: 15px;
+    .padding-right {
+        padding-right: 15px;
     }
-     .padding-left {
-         padding-left: 15px;
+    .padding-left {
+        padding-left: 15px;
     }
-     .padding {
-         padding: 0 15px;
+    .padding {
+        padding: 0 15px;
     }
-     .text-box .box {
-         padding: 20px 15px;
-         margin-left: inherit;
+    .text-box .box {
+        padding: 20px 15px;
+        margin-left: inherit;
     }
-     .text-box .box i img {
-         margin-left: inherit;
+    .text-box .box i img {
+        margin-left: inherit;
     }
-     .text-box .box h3 {
-         font-size: 22px;
-         line-height: 30px;
-         padding: 12px 0px 
+    .text-box .box h3 {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 12px 0px;
     }
-  
-  
-     .margin {
-         margin-bottom: 30px;
+
+    .margin {
+        margin-bottom: 30px;
     }
-     .address {
-         margin-bottom: 30px;
+    .address {
+        margin-bottom: 30px;
     }
-     .copyright {
-         margin-top: 60px;
+    .copyright {
+        margin-top: 60px;
     }
 }
- 
