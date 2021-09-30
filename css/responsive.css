@@ -62,6 +62,8 @@
         background-color: rgba(0, 0, 255, 0.356);
         color: white;
         text-align: center;
+    
+       
     }
 
        
@@ -78,7 +80,7 @@
     .controlSize {
         
         width: 100%;
-        min-height: 15em;
+        min-height: 14em;
         max-height: 55000px;
     }
     
