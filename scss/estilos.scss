@@ -6,6 +6,9 @@
 @import "mainBox";
 @import "meanMenuMob";
 @import "cardsNosotros";
+@import "responsive";
+
+
 
 body {
     background: linear-gradient(to bottom, rgba(31, 23, 150, 1) 20%, rgba(14, 148, 156, 1) 100%);
@@ -38,3 +41,5 @@ a {
         @include title-posicion;
     }
 }
+
+
