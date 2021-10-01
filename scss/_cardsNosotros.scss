@@ -7,6 +7,15 @@
     
 }
 
+.paddingControl1{
+    padding-top: 3em;
+}
+
+.paddingControl2{
+    padding-top: 2em;
+}
+
+
 .profile-card-4 .profile-content::before {
    
     
@@ -17,6 +26,7 @@
     background-color: rgb(27, 186, 226);
     z-index: 0;
     transform: skewY(4deg);
+  
 }
 .profile-card-4:hover img {
     transform: rotate(5deg) scale(1.1, 1.1);
@@ -39,6 +49,8 @@
     .profile-description {
         p {
             color: rgb(50, 205, 184);
+            text-align: center;
+            align-items: center;
         }
         color: #777;
         font-size: 12px;
@@ -67,12 +79,13 @@
         padding: 15px;
         background-color: rgb(19, 21, 141);
         height: 20em;
-        overflow: auto;
+        align-items: center;
+        text-align: center;
        
     }
     img {
         transition: all 0.25s linear;
-    }
+    }   
     max-width: 300px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;

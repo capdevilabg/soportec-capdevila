@@ -610,6 +610,12 @@ a.meanmenu-reveal {
   display: flex;
   margin-top: 5vh; }
 
+.paddingControl1 {
+  padding-top: 3em; }
+
+.paddingControl2 {
+  padding-top: 2em; }
+
 .profile-card-4 .profile-content::before {
   height: 20px;
   top: -10px;
@@ -646,7 +652,9 @@ a.meanmenu-reveal {
     font-size: 12px;
     padding: 10px; }
     .profile-card-4 .profile-description p {
-      color: #32cdb8; }
+      color: #32cdb8;
+      text-align: center;
+      align-items: center; }
   .profile-card-4 .profile-name {
     font-weight: bold;
     position: absolute;
@@ -667,7 +675,8 @@ a.meanmenu-reveal {
     padding: 15px;
     background-color: #13158d;
     height: 20em;
-    overflow: auto; }
+    align-items: center;
+    text-align: center; }
   .profile-card-4 img {
     transition: all 0.25s linear; }
 
