@@ -611,10 +611,10 @@ a.meanmenu-reveal {
   margin-top: 5vh; }
 
 .paddingControl1 {
-  padding-top: 3em; }
+  padding-top: 2em; }
 
 .paddingControl2 {
-  padding-top: 2em; }
+  padding-top: 1em; }
 
 .profile-card-4 .profile-content::before {
   height: 20px;
@@ -643,18 +643,14 @@ a.meanmenu-reveal {
     .profile-card-4 .profile-content .profile-overview h4 {
       color: #273751;
       font-weight: bold; }
-    .profile-card-4 .profile-content .profile-overview p {
-      font-size: 10px;
-      font-weight: 600;
-      color: #777; }
   .profile-card-4 .profile-description {
     color: #777;
     font-size: 12px;
     padding: 10px; }
     .profile-card-4 .profile-description p {
       color: #32cdb8;
-      text-align: center;
-      align-items: center; }
+      font-style: italic;
+      font-size: large; }
   .profile-card-4 .profile-name {
     font-weight: bold;
     position: absolute;
@@ -700,7 +696,8 @@ h1 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }
 
 h2 {
   letter-spacing: 0;
@@ -709,7 +706,8 @@ h2 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }
 
 h3 {
   letter-spacing: 0;
@@ -718,7 +716,8 @@ h3 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }
 
 h4 {
   letter-spacing: 0;
@@ -727,7 +726,8 @@ h4 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }
 
 h5 {
   letter-spacing: 0;
@@ -736,7 +736,8 @@ h5 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }
 
 h6 {
   letter-spacing: 0;
@@ -745,4 +746,5 @@ h6 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; }

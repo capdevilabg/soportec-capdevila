@@ -8,11 +8,11 @@
 }
 
 .paddingControl1{
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .paddingControl2{
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 
@@ -39,18 +39,15 @@
             color: #273751;
             font-weight: bold;
         }
-        p {
-            font-size: 10px;
-            font-weight: 600;
-            color: #777;
-        }
+      
         padding: 15px 0px;
     }
     .profile-description {
         p {
             color: rgb(50, 205, 184);
-            text-align: center;
-            align-items: center;
+           
+            font-style: italic;
+            font-size: large
         }
         color: #777;
         font-size: 12px;
