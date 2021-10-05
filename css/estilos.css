@@ -160,7 +160,7 @@ table {
   text-align: center;
   flex-direction: column; }
   .bienvenidos h2 {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: black; }
   .bienvenidos p {
     color: aqua; }
