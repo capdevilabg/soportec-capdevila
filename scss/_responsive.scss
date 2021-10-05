@@ -12,6 +12,7 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
     
+   
     .logo {
         text-align: center;
     }
@@ -57,6 +58,14 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+
+    #mapa {
+        
+        max-width: 80vw;
+        max-height: 20vh;
+        margin-left: 6vw;
+    }
+
     
     .carousel-caption {
         background-color: rgba(0, 0, 255, 0.356);

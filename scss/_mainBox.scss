@@ -26,16 +26,19 @@
     margin: 50px;
 }
 
-#logo:hover{
-    
+#logo:hover {
     border: solid rgba(21, 236, 226, 0.397) 1px;
-
 }
 
-#logo{
- max-height: 5em;
- border: solid rgba(21, 236, 225, 0.055) 1px;
-
+#logo {
+    max-height: 5em;
+    border: solid rgba(21, 236, 225, 0.055) 1px;
+}
+#mapa {
+    border: solid red;
+    max-width: 18vw;
+    max-height: 20vh;
+    margin-left: 6vw;
 }
 
 .text-box {
@@ -84,8 +87,6 @@
     margin: 32px 0px;
     box-sizing: border-box !important;
 }
-
-
 
 .contact {
     .contact {
@@ -147,8 +148,6 @@
     color: #f70e0e;
 }
 
-
-
 .footer {
     .address {
         i {
@@ -203,14 +202,13 @@ ul.contant_icon {
     }
 }
 
-.copyright a:hover{
+.copyright a:hover {
     color: red;
 }
 
 .copyright {
-    a{
+    a {
         color: whitesmoke;
-       
     }
     p {
         color: #ffffff;
@@ -222,9 +220,6 @@ ul.contant_icon {
     padding: 20px 0px;
     margin-top: 90px;
 }
-
-
-
 
 ul,
 li,

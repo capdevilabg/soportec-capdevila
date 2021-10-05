@@ -148,6 +148,12 @@ table {
   max-height: 5em;
   border: solid rgba(21, 236, 225, 0.055) 1px; }
 
+#mapa {
+  border: solid red;
+  max-width: 18vw;
+  max-height: 20vh;
+  margin-left: 6vw; }
+
 .text-box {
   background: #031ca7ad;
   width: 100%;
@@ -717,6 +723,10 @@ a.meanmenu-reveal {
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+  #mapa {
+    max-width: 80vw;
+    max-height: 20vh;
+    margin-left: 6vw; }
   .carousel-caption {
     background-color: rgba(0, 0, 255, 0.356);
     color: white;
