@@ -41,6 +41,20 @@
     margin-left: 6vw;
 }
 
+.bienvenidos {
+    h2 {
+        font-family: cursive;
+        color: black;
+    }
+    p {
+        color: aqua;
+    }
+    margin-bottom: 5vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
 .text-box {
     .box {
         a {

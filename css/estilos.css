@@ -154,6 +154,17 @@ table {
   max-height: 20vh;
   margin-left: 6vw; }
 
+.bienvenidos {
+  margin-bottom: 5vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column; }
+  .bienvenidos h2 {
+    font-family: cursive;
+    color: black; }
+  .bienvenidos p {
+    color: aqua; }
+
 .text-box {
   background: #031ca7ad;
   width: 100%;
