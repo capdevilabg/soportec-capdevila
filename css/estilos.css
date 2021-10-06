@@ -54,14 +54,14 @@ table {
 .contact-page .copyright {
   background: #000; }
   .contact-page .copyright p {
-    color: #fff; }
+    color: #e6e7f7; }
     .contact-page .copyright p a {
-      color: #fff; }
+      color: red; }
 
 .contact-page .send {
   background: #000;
   border: #000 solid 1px;
-  color: #fff;
+  color: #e6e7f7;
   margin: 0 auto;
   display: block; }
 
@@ -69,7 +69,7 @@ table {
   margin-top: 3em; }
 
 .aboutbg .abouttitlepage h1 {
-  color: #fff;
+  color: #e6e7f7;
   text-transform: uppercase;
   font-size: 40px;
   line-height: 25px;
@@ -85,7 +85,7 @@ table {
   padding: 0px;
   margin-bottom: 90px; }
   .contactoBg .contactoTitlepage h1 {
-    color: #fff;
+    color: #e6e7f7;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 45px;
@@ -103,7 +103,7 @@ table {
   max-height: 8vh;
   padding: 0px; }
   .serviciosbg .serviciosTitlepage h1 {
-    color: #fff;
+    color: #e6e7f7;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 45px;
@@ -112,7 +112,7 @@ table {
     text-align: center; }
 
 .Albumsbg .Albumsstitlepage h1 {
-  color: #fff;
+  color: #e6e7f7;
   text-transform: uppercase;
   font-size: 40px;
   line-height: 45px;
