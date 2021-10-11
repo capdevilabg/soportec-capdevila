@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
     .main-menu ul > li a {
         padding: 20px 20px 20px;
     }
@@ -17,8 +16,6 @@
                 font-size: 16px;
                 line-height: 22px;
                 color: rgb(58, 216, 195);
-               
-                
             }
             h3 {
                 padding-top: 28px;
@@ -27,26 +24,21 @@
                 color: #030000;
                 font-weight: bold;
                 text-transform: uppercase;
-               
             }
             i {
                 text-align: center;
                 display: block;
                 margin-top: 1em;
-               
             }
-            
-            
-           padding-bottom: 2em;
+
+            padding-bottom: 2em;
             border-bottom: solid blue;
         }
-        
+
         padding: 50px 0px;
         margin: 50px;
     }
 
-    
-   
     .logo {
         text-align: center;
     }
@@ -57,6 +49,7 @@
         margin: 0px 0px;
     }
     .menu-area-main {
+        background: transparent;
         height: 256px;
         overflow-y: auto;
     }
@@ -98,8 +91,6 @@
                 font-size: 16px;
                 line-height: 22px;
                 color: rgb(58, 216, 195);
-               
-                
             }
             h3 {
                 padding-top: 28px;
@@ -108,61 +99,45 @@
                 color: #030000;
                 font-weight: bold;
                 text-transform: uppercase;
-               
             }
             i {
                 text-align: center;
                 display: block;
                 margin-top: 1em;
-               
             }
-            
-            
-           padding-bottom: 2em;
+
+            padding-bottom: 2em;
             border-bottom: solid blue;
         }
-        
+
         padding: 50px 0px;
         margin: 50px;
     }
 
     #mapa {
-        
         max-width: 80vw;
         max-height: 20vh;
         margin-left: 6vw;
     }
 
-    
     .carousel-caption {
         background-color: rgba(0, 0, 255, 0.356);
         color: white;
         text-align: center;
-    
-       
     }
 
-       
     .contenedorCartas {
         display: flex;
         flex-direction: column;
         margin-top: 5vh;
         overflow: auto;
-        ;
-        
-        
     }
 
     .controlSize {
-        
         width: 100%;
         min-height: 14em;
         max-height: 55000px;
     }
-    
-
-
-  
 
     #contenedorTicket {
         display: none;
@@ -178,6 +153,7 @@
     }
 
     .menu-area-main {
+        background: transparent;
         height: 290px;
         overflow-y: auto;
     }
@@ -186,10 +162,8 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
-    
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    
     .main-menu ul > li a {
         padding: 7px 20px 7px 20px;
         margin: 0px 0px;
@@ -202,7 +176,7 @@
     .banner-main .text-bg p {
         padding: 0px 0px 17px 0px;
     }
-    
+
     .text-box .box {
         padding: 20px 15px;
         margin-left: inherit;
@@ -223,7 +197,6 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    
     .main-menu ul {
         margin-top: 8px;
     }
@@ -272,11 +245,16 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    
+
+    .menu-area-main li a {
+        background-color: rgba(71, 133, 226, 0.89);
+    }
+
     .menu-area-main li.active a {
-        background: transparent;
+        background: rgba(0, 0, 255, 0.719);
         box-shadow: inherit;
     }
+    
 
     .mean-container .mean-bar {
         margin-top: 1px;
@@ -324,15 +302,19 @@
     }
 }
 @media (max-width: 575px) {
-    
     .header {
         padding-bottom: 0px;
     }
     .mean-container .mean-bar {
         margin-bottom: -1px;
     }
+
+    .menu-area-main li a {
+        background-color: rgba(71, 133, 226, 0.89);
+    }
+
     .menu-area-main li.active a {
-        background: transparent;
+        background: rgba(0, 0, 255, 0.719);
         box-shadow: inherit;
     }
     .contant_icon {
