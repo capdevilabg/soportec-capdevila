@@ -103,11 +103,11 @@
             i {
                 text-align: center;
                 display: block;
-                margin-top: 1em;
+                
             }
 
             padding-bottom: 2em;
-            border-bottom: solid blue;
+            border-bottom: solid rgba(0, 0, 255, 0.664);
         }
 
         padding: 50px 0px;
@@ -245,16 +245,13 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-
     .menu-area-main li a {
         background-color: rgba(71, 133, 226, 0.89);
     }
 
     .menu-area-main li.active a {
         background: rgba(0, 0, 255, 0.719);
-        box-shadow: inherit;
     }
-    
 
     .mean-container .mean-bar {
         margin-top: 1px;
@@ -311,11 +308,11 @@
 
     .menu-area-main li a {
         background-color: rgba(71, 133, 226, 0.89);
+        color: white;
     }
 
     .menu-area-main li.active a {
         background: rgba(0, 0, 255, 0.719);
-        box-shadow: inherit;
     }
     .contant_icon {
         margin-bottom: 30px !important;

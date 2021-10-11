@@ -762,7 +762,7 @@ a.meanmenu-reveal {
     margin: 50px; }
     .main-box .for-box {
       padding-bottom: 2em;
-      border-bottom: solid blue; }
+      border-bottom: solid rgba(0, 0, 255, 0.664); }
       .main-box .for-box p {
         font-size: 16px;
         line-height: 22px;
@@ -776,8 +776,7 @@ a.meanmenu-reveal {
         text-transform: uppercase; }
       .main-box .for-box i {
         text-align: center;
-        display: block;
-        margin-top: 1em; }
+        display: block; }
   #mapa {
     max-width: 80vw;
     max-height: 20vh;
@@ -870,8 +869,7 @@ a.meanmenu-reveal {
   .menu-area-main li a {
     background-color: rgba(71, 133, 226, 0.89); }
   .menu-area-main li.active a {
-    background: rgba(0, 0, 255, 0.719);
-    box-shadow: inherit; }
+    background: rgba(0, 0, 255, 0.719); }
   .mean-container .mean-bar {
     margin-top: 1px; }
   .banner-main .text-bg h1 {
@@ -908,10 +906,10 @@ a.meanmenu-reveal {
   .mean-container .mean-bar {
     margin-bottom: -1px; }
   .menu-area-main li a {
-    background-color: rgba(71, 133, 226, 0.89); }
+    background-color: rgba(71, 133, 226, 0.89);
+    color: white; }
   .menu-area-main li.active a {
-    background: rgba(0, 0, 255, 0.719);
-    box-shadow: inherit; }
+    background: rgba(0, 0, 255, 0.719); }
   .contant_icon {
     margin-bottom: 30px !important; }
   .search {
