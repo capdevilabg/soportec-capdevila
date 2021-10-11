@@ -641,8 +641,14 @@ a.meanmenu-reveal {
     width: 100%; }
 
 /* ------------------------- cards style "Nosotros" ------------------------- */
+#mazo {
+  display: inline;
+  flex-direction: row;
+  margin-top: 5vh; }
+
 .contenedorCartas {
   display: flex;
+  min-width: 100vw;
   margin-top: 5vh; }
 
 .paddingControl1 {
@@ -721,6 +727,19 @@ a.meanmenu-reveal {
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+  .contenedorCartas {
+    display: grid;
+    margin-top: 5vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "carta1 carta2" "carta3 carta4"; }
+  #carta1 {
+    grid-area: carta1; }
+  #carta2 {
+    grid-area: carta2; }
+  #carta3 {
+    grid-area: carta3; }
+  #carta4 {
+    grid-area: carta4; }
   .main-box {
     padding: 50px 0px;
     margin: 50px; }
@@ -808,7 +827,8 @@ a.meanmenu-reveal {
     display: flex;
     flex-direction: column;
     margin-top: 5vh;
-    overflow: auto; }
+    overflow: auto;
+    background-color: bl; }
   .controlSize {
     width: 100%;
     min-height: 14em;
@@ -852,6 +872,19 @@ a.meanmenu-reveal {
     font-size: 13px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .contenedorCartas {
+    display: grid;
+    margin-top: 5vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "carta1 carta2" "carta3 carta4"; }
+  #carta1 {
+    grid-area: carta1; }
+  #carta2 {
+    grid-area: carta2; }
+  #carta3 {
+    grid-area: carta3; }
+  #carta4 {
+    grid-area: carta4; }
   .main-menu ul {
     margin-top: 8px; }
   .main-menu ul > li a {

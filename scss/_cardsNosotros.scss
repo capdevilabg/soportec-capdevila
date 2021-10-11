@@ -1,8 +1,18 @@
 /* ------------------------- cards style "Nosotros" ------------------------- */
 
+
+#mazo{
+    display: inline;
+    flex-direction: row;
+    margin-top: 5vh;
+    
+}
+
 .contenedorCartas {
     display: flex;
+    min-width: 100vw;
     margin-top: 5vh;
+
     
     
 }
