@@ -2,12 +2,10 @@
 
 .main-box {
     .for-box {
-
         p {
             font-size: 16px;
             line-height: 22px;
             color: rgb(58, 216, 195);
-            
         }
         h3 {
             padding-top: 28px;
@@ -46,8 +44,8 @@
 
 .bienvenidos {
     h2 {
-        font-family: 'Times New Roman', Times, serif;
-        color: black;
+        font-family: "Times New Roman", Times, serif;
+        color: whitesmoke;
     }
     p {
         color: aqua;
@@ -56,6 +54,30 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+
+#indexServ{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 132, 255, 0.342);
+    margin-top: 10vh;
+    
+}
+
+.servicioIndex {
+    img{
+        max-width: 14vw;
+    }
+    h4 {
+        font-family: "Times New Roman", Times, serif;
+        color: black;
+    }
+    p {
+        color: white;
+    }
+    margin: 3vw;
+    display: inline-block;
+   
 }
 
 .text-box {

@@ -161,10 +161,27 @@ table {
   text-align: center;
   flex-direction: column; }
   .bienvenidos h2 {
-    font-family: 'Times New Roman', Times, serif;
-    color: black; }
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke; }
   .bienvenidos p {
     color: aqua; }
+
+#indexServ {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 132, 255, 0.342);
+  margin-top: 10vh; }
+
+.servicioIndex {
+  margin: 3vw;
+  display: inline-block; }
+  .servicioIndex img {
+    max-width: 14vw; }
+  .servicioIndex h4 {
+    font-family: "Times New Roman", Times, serif;
+    color: black; }
+  .servicioIndex p {
+    color: white; }
 
 .text-box {
   background: #031ca7ad;
@@ -777,6 +794,8 @@ a.meanmenu-reveal {
       .main-box .for-box i {
         text-align: center;
         display: block; }
+  #indexServ {
+    display: none; }
   #mapa {
     max-width: 80vw;
     max-height: 20vh;
@@ -965,7 +984,7 @@ body {
   overflow-x: hidden; }
 
 a {
-  color: #1f1f1f;
+  color: #00ddfa;
   text-decoration: none !important;
   outline: none !important; }
 
