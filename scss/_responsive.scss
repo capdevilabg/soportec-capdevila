@@ -11,6 +11,40 @@
 }
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .main-box {
+        .for-box {
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                color: rgb(58, 216, 195);
+               
+                
+            }
+            h3 {
+                padding-top: 28px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #030000;
+                font-weight: bold;
+                text-transform: uppercase;
+               
+            }
+            i {
+                text-align: center;
+                display: block;
+                margin-top: 1em;
+               
+            }
+            
+            
+           padding-bottom: 2em;
+            border-bottom: solid blue;
+        }
+        
+        padding: 50px 0px;
+        margin: 50px;
+    }
+
     
    
     .logo {
@@ -58,6 +92,39 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    .main-box {
+        .for-box {
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                color: rgb(58, 216, 195);
+               
+                
+            }
+            h3 {
+                padding-top: 28px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #030000;
+                font-weight: bold;
+                text-transform: uppercase;
+               
+            }
+            i {
+                text-align: center;
+                display: block;
+                margin-top: 1em;
+               
+            }
+            
+            
+           padding-bottom: 2em;
+            border-bottom: solid blue;
+        }
+        
+        padding: 50px 0px;
+        margin: 50px;
+    }
 
     #mapa {
         
@@ -135,9 +202,7 @@
     .banner-main .text-bg p {
         padding: 0px 0px 17px 0px;
     }
-    .music-box .for-box h3 {
-        font-size: 18px;
-    }
+    
     .text-box .box {
         padding: 20px 15px;
         margin-left: inherit;

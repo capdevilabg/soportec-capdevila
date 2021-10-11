@@ -125,7 +125,8 @@ table {
   padding: 50px 0px;
   margin: 50px; }
   .main-box .for-box {
-    padding: 0px 20px; }
+    padding: 0px 20px;
+    margin-top: 3em; }
     .main-box .for-box p {
       font-size: 16px;
       line-height: 22px;
@@ -703,6 +704,27 @@ a.meanmenu-reveal {
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+  .main-box {
+    padding: 50px 0px;
+    margin: 50px; }
+    .main-box .for-box {
+      padding-bottom: 2em;
+      border-bottom: solid blue; }
+      .main-box .for-box p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #3ad8c3; }
+      .main-box .for-box h3 {
+        padding-top: 28px;
+        font-size: 20px;
+        line-height: 25px;
+        color: #030000;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .main-box .for-box i {
+        text-align: center;
+        display: block;
+        margin-top: 1em; }
   .logo {
     text-align: center; }
   .cart-content-right {
@@ -734,6 +756,27 @@ a.meanmenu-reveal {
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+  .main-box {
+    padding: 50px 0px;
+    margin: 50px; }
+    .main-box .for-box {
+      padding-bottom: 2em;
+      border-bottom: solid blue; }
+      .main-box .for-box p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #3ad8c3; }
+      .main-box .for-box h3 {
+        padding-top: 28px;
+        font-size: 20px;
+        line-height: 25px;
+        color: #030000;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .main-box .for-box i {
+        text-align: center;
+        display: block;
+        margin-top: 1em; }
   #mapa {
     max-width: 80vw;
     max-height: 20vh;
@@ -774,8 +817,6 @@ a.meanmenu-reveal {
     line-height: 55px; }
   .banner-main .text-bg p {
     padding: 0px 0px 17px 0px; }
-  .music-box .for-box h3 {
-    font-size: 18px; }
   .text-box .box {
     padding: 20px 15px;
     margin-left: inherit; }
