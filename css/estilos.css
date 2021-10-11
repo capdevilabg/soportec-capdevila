@@ -155,6 +155,16 @@ table {
   max-height: 20vh;
   margin-left: 6vw; }
 
+.servicios {
+  margin: 2em;
+  margin-top: 4vh; }
+  .servicios h2 {
+    color: whitesmoke;
+    text-align: center; }
+  .servicios p {
+    color: aqua;
+    text-align: center; }
+
 .bienvenidos {
   margin-bottom: 5vh;
   display: flex;
