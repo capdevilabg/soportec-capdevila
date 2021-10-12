@@ -10,6 +10,7 @@
 }
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+   
 
     .contenedorCartas {
         display: grid;
@@ -32,7 +33,7 @@
     #carta4 {
         grid-area: carta4;
     }
-    
+
     .main-box {
         .for-box {
             p {
@@ -108,6 +109,23 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+       
+    }
+
+    .serv{
+        h2{
+            background: #0d406948;
+        }
+        margin-top: 20px;
+        background: #0b08085e;
+    }
+
+
     .main-box {
         .for-box {
             p {
@@ -190,6 +208,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    
     .main-menu ul > li a {
         padding: 7px 20px 7px 20px;
         margin: 0px 0px;
@@ -223,6 +242,21 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+       
+    }
+
+    .serv{
+        h2{
+            background: #0d406948;
+        }
+        margin-top: 20px;
+        background: #0b08085e;
+    }
     .contenedorCartas {
         display: grid;
         margin-top: 5vh;
