@@ -35,6 +35,7 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="../css/responsive.css">
 
+
 </head>
 
 <body>
@@ -169,7 +170,7 @@
             <div class="row">
 
 
-                <div  class="col-md-3 col-sm-12 serv">
+                <div class="col-md-3 col-sm-12 serv">
                     <h2>Soporte Multiplataforma</h2>
                     <img src="../images/carousel/1c.jpg" alt="">
                     <p>
@@ -177,29 +178,44 @@
                         Linux , MacOs etc.
 
                         Sistemas de CCTV , camaras ip , telefonia y sistemas para hogares inteligentes.
+                        <a href="#desplegar" id="mas" onclick="vermas('mas')"> ... [leer más]</a>
+                    </p>
+                    <p style="display:none;" id="desplegar">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore nemo error qui ab unde saepe praesentium aliquid quia quo voluptatibus?
+
                     </p>
                 </div>
 
-                <div  class="col-md-3 col-sm-12 serv">
+                <div class="col-md-3 col-sm-12 serv">
                     <h2>Capacitacion </h2>
                     <img src="../images/carousel/2c.jpg" alt="">
                     <p>
                         Contamos con profesionales capacitados para brindar capacitacion en el area tecnologica de su
                         empresa o/y hogar
+                        <a href="#desplegar" id="mas2" onclick="vermas('mas2')"> ... [leer más]</a>
+                    </p>
+                    <p style="display:none;" id="desplegar2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore nemo error qui ab unde saepe praesentium aliquid quia quo voluptatibus?
+
                     </p>
                 </div>
 
-                <div  class="col-md-3 col-sm-12 serv">
-                    <h2>Reparacion y mantenimiento</h2>
+                <div class="col-md-3 col-sm-12 serv">
+                    <h2>Reparacion de hardware</h2>
                     <img src="../images/carousel/4c.jpg" alt="">
                     <p>
                         Reparamos componentes electronicos como Laptop , PC de escritorio , perifericos etc.
 
                         Tambien ofrecemos mantenimiento a nivel de Hardware como de Sofware , redes de datos y demas.
+                        <a href="#desplegar" id="mas3" onclick="vermas('mas3')"> ... [leer más]</a>
+                    </p>
+                    <p style="display:none;" id="desplegar3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore nemo error qui ab unde saepe praesentium aliquid quia quo voluptatibus?
+
                     </p>
                 </div>
 
-                <div  class="col-md-3 col-sm-12 serv">
+                <div class="col-md-3 col-sm-12 serv">
                     <h2>Venta de insumos</h2>
                     <img src="../images/carousel/5c.jpg" alt="">
                     <p>
@@ -207,6 +223,11 @@
                         en soporte.
 
                         Todos nuestros productos cuentan con garantia escrita para su tranquilidad.
+                        <a href="#desplegar" id="mas4" onclick="vermas('mas4')"> ... [leer más]</a>
+                    </p>
+                    <p style="display:none;" id="desplegar4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore nemo error qui ab unde saepe praesentium aliquid quia quo voluptatibus?
+
                     </p>
                 </div>
 
@@ -339,6 +360,32 @@
             });
         });
     </script>
+    <!-- Script para verMas -->
+    <script>
+        function vermas(id) {
+            if (id == "mas") {
+                document.getElementById("desplegar").style.display = "block";
+                document.getElementById("mas").style.display = "none";
+            }
+            else if (id == "mas2") {
+                document.getElementById("desplegar2").style.display = "block";
+                document.getElementById("mas2").style.display = "none";
+            }
+            else if (id == "mas3") {
+                document.getElementById("desplegar3").style.display = "block";
+                document.getElementById("mas3").style.display = "none";
+            }
+            else if (id == "mas4") {
+                document.getElementById("desplegar4").style.display = "block";
+                document.getElementById("mas4").style.display = "none";
+            }
+
+
+
+
+        }
+    </script>
+
 
 </body>
 
