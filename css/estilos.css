@@ -156,15 +156,17 @@ table {
   margin-left: 6vw; }
 
 .servicios {
-  margin: 3em 0 3em 0; }
+  margin: 3em 0 3em 1em; }
 
 h2 {
   color: whitesmoke;
   text-align: center; }
 
 p {
-  color: aqua;
-  text-align: center; }
+  margin: 1em;
+  padding: 1em;
+  color: white;
+  font-size: xx-large; }
 
 .bienvenidos {
   margin-bottom: 5vh;
