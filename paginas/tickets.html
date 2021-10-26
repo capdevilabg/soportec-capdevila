@@ -87,27 +87,59 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="">
-                        <!-- Formulario de tickets -->
-                        <form id="form" style="margin: 2vh;">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Nombre" type="text" name="Name">
-                                </div>
-                                <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Contacto" type="text" name="Contacto">
-                                </div>
-                                <div class="col-sm-12">
-                                    <textarea class="textarea" placeholder="Breve descripcion del problema" type="text"
-                                        name="Message"></textarea>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button class="send">Enviar</button>
-                                </div>
+                        <!--USUARIO Y CONTACTO -->
+                        <div>
+                            <form id="formulario">
+                                *<input class="" type="text" id="usuario"
+                                    placeholder="Usuario" value="">
+                                *<input class="" type="number" id="contacto"
+                                    placeholder="Cel." value="">
+                            </form>
+                         
+                        </div>
 
+
+                        <div class="">
+                            <h3 class="">Breve descripcion del problema:</h3>
+
+                            <textarea class="" name="descripcion"
+                                id="descripcion" rows="11" placeholder="Maximo 200 caracteres"></textarea>
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> <span class=""> Prioridad:</span>
+                                    <select class="" id="priori">
+                                        <option value="Seleccione" selected>Elija una opcion</option>
+                                        <option value="baja">Baja</option>
+                                        <option value="media">Media</option>
+                                        <option value="alta">Alta</option>
+                                    </select>
+                                </label>
                             </div>
-                        </form>
+
+                            <div>
+                                <label> <span class="italicBlanca">Técnico : &nbsp</span>
+                                    <select class="campotransparente italicBlanca" id="tecasig">
+                                        <option value="Seleccione">Elija una opcion</option>
+                                        <option value="Daniel">Daniel </option>
+                                        <option value="Bryan">Bryan</option>
+                                    </select>
+                                </label>
+                                <button class="" type="submit" id="btnEnviar">Enviar</button>
+                            </div>
+
+
+                        </div>
+                        
+                       
+
+
                     </div>
                 </div>
+
+
+
 
                 <!-- Boton descarga TeamViewer -->
                 <div class="col-md-6">
@@ -128,76 +160,9 @@
 
         <section>
             <!-- Tabla donde se muestran los tickets generados -->
-            <div id="contenedorTicket">
+            <div id="contenedorTicket" style="background-color: red;">
 
-                <table border="10px">
-
-                    <caption id="captionTicket">Solo se mostrara los ultimos 10 tickets , en caso de necesitar un
-                        historial mas amplio ,solicitarlo <a style="color: rgb(0, 217, 255);"
-                            href="tickets.html#form">Aqui</a>
-                    </caption>
-
-                    <thead>
-                        <tr>
-                            <th>Nombre </th>
-                            <th>Contacto</th>
-                            <th>Descripcion</th>
-                            <th>Prioridad</th>
-                            <th>Estado</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-
-
-                        <tr>
-                            <td>Elon Musk</td>
-                            <td>elon@dogecoin.com</td>
-                            <td>No me acuerdo de la contraseña de twitter</td>
-                            <td>Alta</td>
-                            <td>Abierto</td>
-                        </tr>
-                        <tr>
-                            <td>Leo Messirve</td>
-                            <td>0983423830</td>
-                            <td>La pagina del Barca no muestra mi foto</td>
-                            <td>Baja</td>
-                            <td>Cerrado</td>
-                        </tr>
-
-                        <tr>
-                            <td>Jose Mujica</td>
-                            <td>25123423</td>
-                            <td>Nomefuncionalabarraespaciadoradelteclado Nomefuncionalabarraespaciadoradelteclado
-                                Nomefuncionalabarraespaciadoradelteclado adelteclado</td>
-                            <td>Media</td>
-                            <td>Abierto</td>
-                        </tr>
-                        <tr>
-                            <td>Jose Mujica</td>
-                            <td>25123423</td>
-                            <td>Nomefuncionalabarraespaciadoradelteclado Lorem ipsum dolor, sit amet consectetur
-                                adipisicing
-                                elit. Modi et temporibus illum vel alias, ut delectus nostrum. Ea quisquam fugit maiores
-                                explicabo earum eveniet dolorem molestias aspernatur est! Minus, ea?</td>
-                            <td>Media</td>
-                            <td>Abierto</td>
-                        </tr>
-                        <tr>
-                            <td>Jose Mujica</td>
-                            <td>25123423</td>
-                            <td>Nomefuncionalabarraespaciadoradelteclado Lorem ipsum dolor, sit amet consectetur
-                                adipisicing
-                                elit. Modi et temporibus illum vel alias, ut delectus nostrum. Ea quisquam fugit maiores
-                                explicabo earum eveniet dolorem molestias aspernatur est! Minus, ea?</td>
-                            <td>Media</td>
-                            <td>Abierto</td>
-                        </tr>
-
-
-                    </tbody>
-
-                </table>
+           ss
             </div>
         </section>
 
@@ -277,24 +242,8 @@
     <script src="../js/plugin.js"></script>
     <!-- sidebar -->
     <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".fancybox").fancybox({
-                openEffect: "none",
-                closeEffect: "none"
-            });
-
-            $(".zoom").hover(function () {
-
-                $(this).addClass('transition');
-            }, function () {
-
-                $(this).removeClass('transition');
-            });
-        });
-    </script>
+    <script src="../js/tickets.js"></script>
 </body>
 
 </html>
