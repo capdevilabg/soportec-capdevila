@@ -63,11 +63,6 @@ $.extend( $.fn, {
 				function handle() {
 					var hidden, result;
 
-					// Insert a hidden input as a replacement for the missing submit button
-					// The hidden input is inserted in two cases:
-					//   - A user defined a `submitHandler`
-					//   - There was a pending request due to `remote` method and `stopRequest()`
-					//     was called to submit the form in case it's valid
 					if ( validator.submitButton && ( validator.settings.submitHandler || validator.formSubmitted ) ) {
 						hidden = $( "<input type='hidden'/>" )
 							.attr( "name", validator.submitButton.name )

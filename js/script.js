@@ -146,12 +146,15 @@ function MostrarTablaDeTickets() {
 
   });
 
-
-
+}
+function pepe (){
+  alert ("Funcionalidad en construccion , disculpe las molestias")
 }
 
+
+
 /* Funcion prueba para cambiar de estado en el futuro  */
-function pepe() {
+/* function pepe() {
   listaTickets.map(function (dato) {
     if (dato.usuario == "ok") {
       console.log("funk")
@@ -161,5 +164,7 @@ function pepe() {
   });
 
 }
+ */
+
 
 
